@@ -1,0 +1,10 @@
+namespace: fleet-testing
+targetCustomizations:
+- name: dev
+  clusterSelector:
+    matchLabels:
+      env: dev
+  yaml:
+    overlays:
+    # Refers to overlays/dev folder
+    - dev
