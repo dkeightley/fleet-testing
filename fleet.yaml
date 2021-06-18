@@ -8,3 +8,11 @@ targetCustomizations:
     overlays:
     # Refers to overlays/dev folder
     - dev
+- name: prod
+  clusterSelector:
+    matchLabels:
+      env: prod
+  yaml:
+    overlays:
+    # Refers to overlays/dev folder
+    - prod
