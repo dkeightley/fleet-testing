@@ -1,5 +1,7 @@
 
 metadata:
   namespace: fleet-testing-dev
+  labels:
+    env: dev
 spec:
   replicas: 1
