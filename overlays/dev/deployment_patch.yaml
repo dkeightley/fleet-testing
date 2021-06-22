@@ -3,5 +3,6 @@ metadata:
   namespace: fleet-testing-dev
   labels:
     env: dev
+    webhook-testing: 1
 spec:
   replicas: 1
