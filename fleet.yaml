@@ -21,8 +21,8 @@ targetCustomizations:
     matchLabels:
       app: monitoring
   helm:
-  releaseName: rancher-monitoring
-  repo: https://charts.rancher.io
-  chart: rancher-monitoring
-  valuesFiles:
-    - prometheus-values.yaml
+    releaseName: rancher-monitoring
+    repo: https://charts.rancher.io
+    chart: rancher-monitoring
+    valuesFiles:
+      - prometheus-values.yaml
