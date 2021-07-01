@@ -14,7 +14,7 @@ targetCustomizations:
       env: prod
   yaml:
     overlays:
-    # Refers to overlays/dev folder
+    # Refers to overlays/prod folder
     - prod
 - name: monitoring
   clusterSelector:
@@ -25,4 +25,4 @@ targetCustomizations:
   repo: https://charts.rancher.io
   chart: rancher-monitoring
   valuesFiles:
-    - values.yaml
+    - prometheus-values.yaml
