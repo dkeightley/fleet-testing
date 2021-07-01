@@ -17,9 +17,9 @@ targetCustomizations:
     # Refers to overlays/prod folder
     - prod
 - name: monitoring
-  clusterSelector:
-    matchLabels:
-      app: monitoring
+  # clusterSelector:
+  #   matchLabels:
+  #     app: monitoring
   helm:
     releaseName: rancher-monitoring
     repo: https://charts.rancher.io
