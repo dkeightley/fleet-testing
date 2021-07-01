@@ -1,10 +1,4 @@
 namespace: fleet-testing
-helm:
-  releaseName: rancher-monitoring
-  repo: https://charts.rancher.io
-  chart: rancher-monitoring
-  valuesFiles:
-    - prometheus-values.yaml
 targetCustomizations:
 - name: dev
   clusterSelector:
@@ -22,13 +16,3 @@ targetCustomizations:
     overlays:
     # Refers to overlays/prod folder
     - prod
-# - name: monitoring
-#   # clusterSelector:
-#   #   matchLabels:
-#   #     app: monitoring
-#   helm:
-#     releaseName: rancher-monitoring
-#     repo: https://charts.rancher.io
-#     chart: rancher-monitoring
-#     valuesFiles:
-#       - prometheus-values.yaml
