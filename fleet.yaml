@@ -16,3 +16,13 @@ targetCustomizations:
     overlays:
     # Refers to overlays/dev folder
     - prod
+- name: monitoring
+  clusterSelector:
+    matchLabels:
+      env: monitoring
+  helm:
+  releaseName: rancher-monitoring
+  repo: https://charts.rancher.io
+  chart: rancher-monitoring
+  valuesFiles:
+    - values.yaml
