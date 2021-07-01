@@ -19,7 +19,7 @@ targetCustomizations:
 - name: monitoring
   clusterSelector:
     matchLabels:
-      env: monitoring
+      app: monitoring
   helm:
   releaseName: rancher-monitoring
   repo: https://charts.rancher.io
