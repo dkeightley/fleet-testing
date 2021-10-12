@@ -1,0 +1,4 @@
+prometheus:
+  prometheusSpec:
+    externalLabels:
+      prometheus_cluster: global.fleet.clusterLabels.management.cattle.io/cluster-display-name
