@@ -1,4 +1,12 @@
 prometheus:
+prometheus:
   prometheusSpec:
+    resources:
+      limits:
+        memory: 1000Mi
+        cpu: 500m
+      requests:
+        memory: 500Mi
+        cpu: 100m
     externalLabels:
       prometheus_cluster: global.fleet.clusterLabels.management.cattle.io/cluster-display-name

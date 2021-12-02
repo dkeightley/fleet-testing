@@ -10,7 +10,7 @@ metadata:
   name: monitoring
   namespace: fleet-default
 spec:
-  branch: monitoring
+  branch: main
   paths:
   - 00-monitoring-crd
   - 01-monitoring
