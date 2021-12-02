@@ -12,8 +12,7 @@ metadata:
 spec:
   branch: main
   paths:
-  - 00-monitoring-crd
-  - 01-monitoring
+  - rancher-monitoring/01-monitoring
   paused: false
   repo: https://github.com/dkeightley/fleet-testing
   targets:
