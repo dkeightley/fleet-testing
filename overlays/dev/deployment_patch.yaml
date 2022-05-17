@@ -1,8 +1,0 @@
-
-metadata:
-  namespace: fleet-testing-dev
-  labels:
-    env: dev
-    webhook-testing: 2
-spec:
-  replicas: 1

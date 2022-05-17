@@ -1,6 +1,0 @@
-metadata:
-  namespace: fleet-testing-dev
-  labels:
-    env: prod
-spec:
-  replicas: 3
