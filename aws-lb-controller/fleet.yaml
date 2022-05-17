@@ -1,5 +1,5 @@
 
-namespace: kube-system
+defaultNamespace: kube-system
 helm:
   repo: https://aws.github.io/eks-charts
   chart: aws-load-balancer-controller
