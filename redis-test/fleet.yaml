@@ -4,3 +4,8 @@ helm:
   repo: https://charts.bitnami.com
   chart: bitnami/redis
   version: 16.13.2
+  values:
+    architecture: standalone
+    master:
+      persistence:
+        enabled: false
