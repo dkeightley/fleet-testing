@@ -4,13 +4,3 @@ helm:
   repo: https://charts.bitnami.com/bitnami
   chart: redis
   version: 16.13.2
-  values:
-    architecture: standalone
-    auth:
-      enabled: true
-      sentinel: false
-      existingSecret: "claims-redis"
-      usePasswordFiles: true
-    master:
-      persistence:
-        enabled: false
