@@ -2,7 +2,7 @@
 helm:
   releaseName: claims
   repo: https://charts.bitnami.com/bitnami
-  chart: bitnami/redis
+  chart: redis
   version: 16.13.2
   values:
     architecture: standalone
