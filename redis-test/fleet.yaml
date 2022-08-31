@@ -1,6 +1,6 @@
 # defaultNamespace: platform
 helm:
   releaseName: claims
-  repo: https://charts.bitnami.com/bitnami
-  chart: redis
+  repo: https://charts.bitnami.com
+  chart: bitnami/redis
   version: 16.13.2
