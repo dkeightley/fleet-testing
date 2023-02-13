@@ -5,4 +5,4 @@ helm:
   chart: aws-load-balancer-controller
   version: 1.4.7
   values:
-    clusterName: global.fleet.clusterLabels.management.cattle.io/cluster-name
+#    clusterName: global.fleet.clusterLabels.management.cattle.io/cluster-name
