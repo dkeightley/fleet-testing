@@ -3,6 +3,6 @@ defaultNamespace: kube-system
 helm:
   repo: https://aws.github.io/eks-charts
   chart: aws-load-balancer-controller
-  version: 1.4.1
+  version: 1.4.6
   values:
     clusterName: global.fleet.clusterLabels.management.cattle.io/cluster-name
