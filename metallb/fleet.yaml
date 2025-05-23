@@ -1,0 +1,4 @@
+defaultNamespace: kube-system
+helm:
+  repo: https://metallb.github.io/metallb
+  chart: metallb
