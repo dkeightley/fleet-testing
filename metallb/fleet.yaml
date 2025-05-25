@@ -15,3 +15,4 @@ diff:
       name: bgppeers.metallb.io
       operations:
         - {"op":"remove", "path":"/spec/conversion"}
+        - {"op":"remove", "path":"/status"}
